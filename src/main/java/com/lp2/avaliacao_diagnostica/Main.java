@@ -12,8 +12,7 @@ import java.util.*;
 
 public class Main {
             Scanner scnr = new Scanner(System.in);
-System.out.println("Insira a quantidade de elementos a ser adicionada (número inteiro): ");
-        int N = scnr.nextInt();
+
     static void Exercicio_1() {
         /*
         Crie um programa em que solicita ao usuário o valor de N e, posteriormente os N 
@@ -105,6 +104,10 @@ System.out.println("Insira a quantidade de elementos a ser adicionada (número i
         
         */
         System.out.println("Exercício 3: \r\n");
+        
+        System.out.println("Insira a quantidade de elementos a ser adicionada (número inteiro): ");
+        int N;
+        N = scnr.nextInt();
         
         int vetor[] = new int[N];
 
